@@ -1,6 +1,5 @@
 node {
    stage ('checkout repository') {
-      // get our rep cloned and prepped for action
       deleteDir()
       checkout scm
    }

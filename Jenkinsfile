@@ -24,7 +24,7 @@ node {
 
    stage ('Promote Configurations to Production') {
      // ping stuff to check dev
-
+   }
 
    stage ('Production Functional/Integration Testing') {
     // ping stuff to check prod

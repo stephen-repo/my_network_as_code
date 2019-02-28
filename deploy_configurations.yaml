@@ -3,9 +3,9 @@
   connection: local
   gather_facts: no
   tasks:
-    - file:
-        path: configs/
-        state: directory
+   - file:
+      path: configs/
+      state: directory
 - name: Deploy Cisco IOS-XE Router Configurations
   connection: local
   hosts: cisco-ios-xe-routers

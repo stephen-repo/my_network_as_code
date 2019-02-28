@@ -1,9 +1,9 @@
 ---
-  - name: Ensure Configs Directory Present
-    connection: local
-    hosts: localhost
-    gather_facts: no
-    tasks:
+- name: Ensure Configs Directory Present
+  connection: local
+  hosts: localhost
+  gather_facts: no
+  tasks:
      - file:
         path: configs/
         state: directory

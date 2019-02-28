@@ -30,4 +30,10 @@ node {
     // ping stuff to check prod
    }
 
+
+   stage ('Checkout Repoisotyr') {
+      deleteDir()
+      checkout scm
+   }
+
 }

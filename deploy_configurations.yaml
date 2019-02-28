@@ -1,5 +1,5 @@
 ---
-  - name: Ensure Configs Directory Present
+- name: Ensure Configs Directory Present
     connection: local
     gather_facts: no
     tasks:

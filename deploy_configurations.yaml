@@ -1,6 +1,7 @@
 ---
 - name: Ensure Configs Directory Present
   connection: local
+  hosts: localhost
   gather_facts: no
   tasks:
    - file:

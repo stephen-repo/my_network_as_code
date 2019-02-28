@@ -1,0 +1,14 @@
+loopback_interfaces: {
+ 8: {
+   'ip': '8.8.8.8',
+   'mask': '255.255.255.255'
+ }
+}
+
+ethernet_interfaces: {
+ 'GigabitEthernet2': {
+   'ip': '203.0.113.1',
+   'description': 'To acme-sea-asa1 a',
+   'mask': '255.255.255.192'
+  }
+}

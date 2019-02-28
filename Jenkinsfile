@@ -1,6 +1,8 @@
 node {
    stage ('checkout repository') {
       // get our rep cloned and prepped for action
+      deleteDir()
+      checkout scm
    }
 
    stage ('Render configurations') {
@@ -30,10 +32,5 @@ node {
     // ping stuff to check prod
    }
 
-
-   stage ('Checkout Repoisotyr') {
-      deleteDir()
-      checkout scm
-   }
 
 }

@@ -1,9 +1,9 @@
 ---
 - name: Ensure Configs Directory Present
-    connection: local
-    gather_facts: no
-    tasks:
-     - file:
+  connection: local
+  gather_facts: no
+  tasks:
+    - file:
         path: configs/
         state: directory
 - name: Deploy Cisco IOS-XE Router Configurations
